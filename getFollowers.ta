@@ -1,0 +1,7 @@
+import { Page } from 'puppeteer';
+
+export default async function getFollowers(page : Page) {
+//TODO: document query followers usernames
+const list = []
+return list;
+}
