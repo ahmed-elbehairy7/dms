@@ -1,0 +1,16 @@
+{
+	"name": "dms",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": " node dist/index.js",
+		"test": "tsc && node dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"puppeteer": "^21.11.0"
+	}
+}

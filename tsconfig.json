@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"target": "ES2016",
+		"module": "commonjs",
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"removeComments": true,
+		"noEmitOnError": false,
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"strictNullChecks": true,
+		"noUncheckedIndexedAccess": true,
+		"noFallthroughCasesInSwitch": true,
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["./src/*"],
+			"root/*": ["./*"]
+		}
+	},
+	"include": ["./src"],
+	"exclude": []
+}
